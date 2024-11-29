@@ -1,79 +1,49 @@
-@model Project_RapPhim.Models.Phim
-
-@{
-	ViewData["Title"] = "Thêm phim mới";
-}
+@model Project_RapPhim.Models.NhanVien
 
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="~/css/themphim.css">
-	<title>@ViewData["Title"]</title>
+	<title>Cập Nhật Nhân Viên</title>
+	<link rel="stylesheet" href="~/css/themnhanvien.css">
 </head>
 <body>
-	<div class="container">
-		<h1>Thêm Phim Mới</h1>
-
-		<form asp-action="Index" asp-controller="Themphimmoi" method="post" enctype="multipart/form-data">
-			@Html.ValidationSummary(true, "", new { @class = "text-danger" }) 
-
+	<div class="form-container">
+		<h1>Cập Nhật Nhân Viên</h1>
+		<form asp-controller="Capnhatnhanvien" asp-action="Index" method="post">
 			<div class="form-group">
-				<label for="TenPhim">Tên phim</label>
-				<input type="text" id="TenPhim" name="TenPhim" class="form-control" required />
-				@Html.ValidationMessageFor(model => model.TenPhim, "", new { @class = "text-danger" })
+				<label for="MaNhanVien">Mã Nhân Viên</label>
+				<input type="number" id="MaNhanVien" name="MaNhanVien" value="@Model.MaNhanVien" required>
 			</div>
-
 			<div class="form-group">
-				<label for="TheLoai">Thể loại</label>
-				<input type="text" id="TheLoai" name="TheLoai" class="form-control" required />
-				@Html.ValidationMessageFor(model => model.TheLoai, "", new { @class = "text-danger" })
+				<label for="HoTen">Họ Tên</label>
+				<input type="text" id="HoTen" name="HoTen" value="@Model.HoTen" required>
 			</div>
-
 			<div class="form-group">
-				<label for="DaoDien">Đạo diễn</label>
-				<input type="text" id="DaoDien" name="DaoDien" class="form-control" required />
-				@Html.ValidationMessageFor(model => model.DaoDien, "", new { @class = "text-danger" })
+				<label for="Email">Email</label>
+				<input type="email" id="Email" name="Email" value="@Model.Email" required>
 			</div>
-
 			<div class="form-group">
-				<label for="DienVien">Diễn viên</label>
-				<input type="text" id="DienVien" name="DienVien" class="form-control" required />
-				@Html.ValidationMessageFor(model => model.DienVien, "", new { @class = "text-danger" })
+				<label for="SoDienThoai">Số Điện Thoại</label>
+				<input type="text" id="SoDienThoai" name="SoDienThoai" value="@Model.SoDienThoai" required>
 			</div>
-
 			<div class="form-group">
-				<label for="MoTa">Mô tả</label>
-				<textarea id="MoTa" name="MoTa" class="form-control" rows="4" required></textarea>
-				@Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+				<label for="VaiTro">Vai Trò</label>
+				<input type="text" id="VaiTro" name="VaiTro" value="@Model.VaiTro" required>
 			</div>
-
 			<div class="form-group">
-				<label for="ThoiLuong">Thời lượng (phút)</label>
-				<input type="number" id="ThoiLuong" name="ThoiLuong" class="form-control" min="0" />
-				@Html.ValidationMessageFor(model => model.ThoiLuong, "", new { @class = "text-danger" })
+				<label for="TrangThai">Trạng Thái</label>
+				<input type="text" id="TrangThai" name="TrangThai" value="@Model.TrangThai" required>
 			</div>
-
 			<div class="form-group">
-				<label for="DanhGia">Đánh giá (1-5)</label>
-				<input type="number" id="DanhGia" name="DanhGia" class="form-control" min="1" max="5" step="0.1" />
-				@Html.ValidationMessageFor(model => model.DanhGia, "", new { @class = "text-danger" })
+				<label for="MaNguoiDung">Mã Người Dùng</label>
+				<input type="number" id="MaNguoiDung" name="MaNguoiDung" value="@Model.MaNguoiDung">
 			</div>
-
-			<div class="form-group">
-				<label for="NgayKhoiChieu">Ngày khởi chiếu</label>
-				<input type="date" id="NgayKhoiChieu" name="NgayKhoiChieu" class="form-control" />
-				@Html.ValidationMessageFor(model => model.NgayKhoiChieu, "", new { @class = "text-danger" })
+			<div class="form-actions">
+				<button type="submit" class="btn-submit">Cập Nhật</button>
+				<a href="@Url.Action("Index", "Quanlynhanvien")" class="btn-cancel">Hủy</a>
 			</div>
-
-			<div class="form-group">
-				<label for="HinhAnh">Hình ảnh</label>
-				<input type="text" id="HinhAnh" name="HinhAnh" class="form-control" />
-				
-			</div>
-
-			<button type="submit" class="btn-submit">Thêm phim</button>
 		</form>
 	</div>
 </body>

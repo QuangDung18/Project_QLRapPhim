@@ -1,0 +1,77 @@
+@model Project_RapPhim.Models.Phim
+
+@{
+	ViewData["Title"] = "Cập nhật phim";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/css/capnhatphim.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Cập nhật thông tin phim</h1>
+
+		@if (TempData["Success"] != null)
+		{
+			<div class="alert success">
+				@TempData["Success"]
+			</div>
+		}
+
+		@if (TempData["Error"] != null)
+		{
+			<div class="alert error">
+				@TempData["Error"]
+			</div>
+		}
+
+		<form asp-action="Update" asp-controller="Capnhatphim" method="post">
+			<input type="hidden" name="PhimId" value="@Model.PhimId" />
+			<div class="form-group">
+				<label for="TenPhim">Tên phim:</label>
+				<input type="text" id="TenPhim" name="TenPhim" value="@Model.TenPhim" required />
+			</div>
+			<div class="form-group">
+				<label for="TheLoai">Thể loại:</label>
+				<input type="text" id="TheLoai" name="TheLoai" value="@Model.TheLoai" required />
+			</div>
+			<div class="form-group">
+				<label for="NgayKhoiChieu">Ngày khởi chiếu:</label>
+				<input type="date" id="NgayKhoiChieu" name="NgayKhoiChieu" value="@Model.NgayKhoiChieu?.ToString("yyyy-MM-dd")" />
+			</div>
+			<div class="form-group">
+				<label for="DaoDien">Đạo diễn:</label>
+				<input type="text" id="DaoDien" name="DaoDien" value="@Model.DaoDien" required />
+			</div>
+			<div class="form-group">
+				<label for="DienVien">Diễn viên:</label>
+				<textarea id="DienVien" name="DienVien" rows="3">@Model.DienVien</textarea>
+			</div>
+			<div class="form-group">
+				<label for="MoTa">Mô tả:</label>
+				<textarea id="MoTa" name="MoTa" rows="5">@Model.MoTa</textarea>
+			</div>
+			<div class="form-group">
+				<label for="ThoiLuong">Thời lượng (phút):</label>
+				<input type="number" id="ThoiLuong" name="ThoiLuong" value="@Model.ThoiLuong" />
+			</div>
+			<div class="form-group">
+				<label for="DanhGia">Đánh giá:</label>
+				<input type="number" id="DanhGia" name="DanhGia" value="@Model.DanhGia" step="0.1" min="0" max="10" />
+			</div>
+			<div class="form-group">
+				<label for="HinhAnh">Hình ảnh:</label>
+				<input type="text" id="HinhAnh" name="HinhAnh" value="@Model.HinhAnh" />
+			</div>
+			<div class="form-actions">
+				<button type="submit" class="save-button">Lưu thay đổi</button>
+				<a href="/Quanlyphim" class="cancel-button">Hủy</a>
+			</div>
+		</form>
+	</div>
+</body>
+</html>
