@@ -1,0 +1,666 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\capnhatphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\capnhatphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\capnhatphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\capnhatphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\capnhatnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\capnhatnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\themnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\themnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\themphimmoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\themphimmoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\themphimmoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\themphimmoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\quanlyphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\quanlyphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\themnhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\themnhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\themnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\themnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\quanlynhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\quanlynhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\capnhatnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\capnhatnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\quanlyphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\quanlyphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\migrations\\20241112155450_addhinhanhcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\migrations\\20241112155450_addhinhanhcolumn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\models\\quanlyrapchieuphimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\quanlyrapchieuphimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\migrations\\quanlyrapchieuphimcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\migrations\\quanlyrapchieuphimcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\migrations\\20241116142814_removematkhauandngaytaofromnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\migrations\\20241116142814_removematkhauandngaytaofromnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\migrations\\20241112063322_updatedecimalfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\migrations\\20241112063322_updatedecimalfields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\models\\rapchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\rapchieu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\dangky\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\xoanhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\xoanhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\xoanhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\xoanhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\xoanhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\xoanhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\xoaphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\xoaphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\quanlyphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\quanlyphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\quanlynhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\quanlynhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\capnhatphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\capnhatphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\controllers\\dangnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\dangnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|c:\\users\\acer\\desktop\\ptpmcn\\project_rapphim\\project_rapphim\\project_rapphim\\wwwroot\\css\\themphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\themphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{9b96d899-3214-4b6f-a8b9-182d4bc2f76f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:52:51.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-28T16:25:22.546Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAsAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T16:33:42.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CapnhatnhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:35:19.144Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TrangchuController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBgAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:58:45.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CapnhatphimController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:44:14.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T06:36:06.571Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "ViewState": "AQIAADcAAAAAAAAAAAAqwEoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T02:56:03.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Phim.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\Phim.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\Phim.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\Phim.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\Phim.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:24:37.139Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ThemphimmoiController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAuwCoAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:27:09.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "QuanlynhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:12:24.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "themnhanvien.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T06:27:56.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\NhanVien.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\NhanVien.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\NhanVien.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAswBYAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:39:23.335Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ThemnhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAgwCUAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T15:03:24.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20241112155450_AddHinhAnhColumn.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241112155450_AddHinhAnhColumn.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Migrations\\20241112155450_AddHinhAnhColumn.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241112155450_AddHinhAnhColumn.cs",
+              "RelativeToolTip": "Project_RapPhim\\Migrations\\20241112155450_AddHinhAnhColumn.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:22:38.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\NguoiDung.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\NguoiDung.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAA9wBAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:01:56.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "QuanlyphimController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "ViewState": "AQIAAAoAAAAAAAAAAAA1wAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:30:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20241116142814_RemoveMatKhauAndNgayTaoFromNhanVien.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241116142814_RemoveMatKhauAndNgayTaoFromNhanVien.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Migrations\\20241116142814_RemoveMatKhauAndNgayTaoFromNhanVien.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241116142814_RemoveMatKhauAndNgayTaoFromNhanVien.cs",
+              "RelativeToolTip": "Project_RapPhim\\Migrations\\20241116142814_RemoveMatKhauAndNgayTaoFromNhanVien.cs",
+              "ViewState": "AQIAACQAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:22:36.432Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "QuanLyRapChieuPhimContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\QuanLyRapChieuPhimContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Migrations\\QuanLyRapChieuPhimContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\QuanLyRapChieuPhimContextModelSnapshot.cs",
+              "RelativeToolTip": "Project_RapPhim\\Migrations\\QuanLyRapChieuPhimContextModelSnapshot.cs",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:22:32.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20241112063322_UpdateDecimalFields.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241112063322_UpdateDecimalFields.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Migrations\\20241112063322_UpdateDecimalFields.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Migrations\\20241112063322_UpdateDecimalFields.cs",
+              "RelativeToolTip": "Project_RapPhim\\Migrations\\20241112063322_UpdateDecimalFields.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T04:22:37.302Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "QuanLyRapChieuPhimContext.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADMAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:20:39.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RapChieu.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\RapChieu.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\RapChieu.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Models\\RapChieu.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\RapChieu.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T03:37:58.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:28:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\appsettings.json",
+              "RelativeDocumentMoniker": "Project_RapPhim\\appsettings.json",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\appsettings.json",
+              "RelativeToolTip": "Project_RapPhim\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-27T03:16:31.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAAJ4SAAAAAAAAAAAowKQSAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-11-27T03:28:41.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DangkyController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangkyController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\DangkyController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangkyController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\DangkyController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:21:00.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Dangky\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Dangky\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Dangky\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Dangky\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T12:31:10.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T17:47:52.49Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "xoanhanvien.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T18:00:53.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "XoanhanvienController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:07:25.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "XoaphimController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:55:41.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "quanlyphim.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T16:36:07.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "quanlynhanvien.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T16:14:49.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T08:23:07.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "capnhatphim.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T03:02:31.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Project_RapPhim\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\appsettings.Development.json",
+              "RelativeToolTip": "Project_RapPhim\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T02:48:05.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "DangnhapController.cs",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:20:55.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "themphim.css",
+              "DocumentMoniker": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "ToolTip": "C:\\Users\\acer\\Desktop\\PTPMCN\\Project_RapPhim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T16:55:04.62Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

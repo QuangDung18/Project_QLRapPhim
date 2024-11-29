@@ -1,0 +1,87 @@
+@{
+	ViewData["Title"] = "Quản lý phim";
+	var phimDangChieu = ViewBag.PhimDangChieu as List<Phim>;
+	var phimSapChieu = ViewBag.PhimSapChieu as List<Phim>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/css/quanlyphim.css">
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h1>Quản lý phim</h1>
+			<a href="/Themphimmoi/Index" class="add-button">Thêm phim</a>
+		</div>
+
+		<div>
+			<h2>Phim: Đang Chiếu</h2>
+			<div class="movie-list">
+				@foreach (var phim in phimDangChieu)
+				{
+					<div class="movie-item">
+						@if (!string.IsNullOrEmpty(phim.HinhAnh))
+						{
+							<img src="~/HinhAnh/@phim.HinhAnh" alt="Poster của @phim.TenPhim" />
+						}
+						else
+						{
+							<img src="~/HinhAnh/default.jpg" alt="Poster mặc định" />
+						}
+						<p>@phim.TenPhim</p>
+						<div class="action-buttons">
+							<a asp-controller="Capnhatphim" asp-action="Index" asp-route-id="@phim.PhimId" class="edit-button">Cập nhật</a>
+							<a asp-controller="Xoaphim" asp-action="Index" asp-route-id="@phim.PhimId"
+							   class="delete-button"
+							   onclick="return confirmDelete(event, '@phim.TenPhim');">Xóa</a>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+
+		<div>
+			<h2>Phim: Sắp Chiếu</h2>
+			<div class="movie-list">
+				@foreach (var phim in phimSapChieu)
+				{
+					<div class="movie-item">
+						@if (!string.IsNullOrEmpty(phim.HinhAnh))
+						{
+							<img src="~/HinhAnh/@phim.HinhAnh" alt="Poster của @phim.TenPhim" />
+						}
+						else
+						{
+							<img src="~/HinhAnh/default.jpg" alt="Poster mặc định" />
+						}
+						<p>@phim.TenPhim</p>
+						<div class="action-buttons">
+							<a asp-controller="Capnhatphim" asp-action="Index" asp-route-id="@phim.PhimId" class="edit-button">Cập nhật</a>
+							<a asp-controller="Xoaphim" asp-action="Index" asp-route-id="@phim.PhimId"
+							   class="delete-button"
+							   onclick="return confirmDelete(event, '@phim.TenPhim');">Xóa</a>
+						</div>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+
+	<script>
+		function confirmDelete(event, movieName) {
+			const confirmMessage = `Bạn chắc chắn muốn xóa phim "${movieName}" không?`;
+			const userConfirmed = confirm(confirmMessage);
+
+			if (!userConfirmed) {
+				event.preventDefault();
+				return false;
+			}
+			return true;
+		}
+	</script>
+</body>
+</html>

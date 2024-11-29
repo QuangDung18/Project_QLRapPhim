@@ -1,0 +1,79 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Project_RapPhim
+build_property.RootNamespace = Project_RapPhim
+build_property.ProjectDir = C:\Users\acer\Desktop\PTPMCN\Project_RapPhim\Project_RapPhim\Project_RapPhim\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\acer\Desktop\PTPMCN\Project_RapPhim\Project_RapPhim\Project_RapPhim
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Capnhatnhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwbmhhdG5oYW52aWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Capnhatphim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FwbmhhdHBoaW1cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Dangky/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ2t5XEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Dangnhap/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGFuZ25oYXBcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Quanlynhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5bmhhbnZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Quanlyphim/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVhbmx5cGhpbVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Quenmatkhau/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUXVlbm1hdGtoYXVcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Themnhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbW5oYW52aWVuXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Themphimmoi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGhlbXBoaW1tb2lcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Xoanhanvien/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWG9hbmhhbnZpZW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/acer/Desktop/PTPMCN/Project_RapPhim/Project_RapPhim/Project_RapPhim/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-2tqidmhgkq

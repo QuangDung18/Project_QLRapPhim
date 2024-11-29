@@ -1,0 +1,35 @@
+@{
+	ViewBag.Title = "Quên Mật Khẩu";
+}
+<head>
+	<link rel="stylesheet" href="~/css/dangky.css" />
+</head>
+<form method="post" asp-controller="Quenmatkhau" asp-action="Index">
+	<h2 class="form-title">Quên Mật Khẩu</h2>
+
+	<div>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required />
+	</div>
+
+	<div>
+		<label for="soDienThoai">Số Điện Thoại:</label>
+		<input type="text" name="soDienThoai" required />
+	</div>
+
+	<div>
+		<label for="matKhauMoi">Mật Khẩu Mới:</label>
+		<input type="password" name="matKhauMoi" required />
+	</div>
+	@if (ViewBag.Message != null)
+	{
+		<div class="error-message text-danger">
+			<p>@ViewBag.Message</p>
+		</div>
+	}
+	<div class="button-row">
+		<button type="submit" class="btn">Đặt Lại Mật Khẩu</button>
+	</div>
+
+	
+</form>

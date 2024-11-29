@@ -1,0 +1,543 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\quanlynhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\quanlynhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\capnhatnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\capnhatnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\quanlynhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\quanlynhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\capnhatnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\capnhatnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\themnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\themnhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\themnhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\themnhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\themnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\themnhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\phim.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\quanlyphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\quanlyphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\xoanhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\xoanhanvien\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\xoanhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\xoanhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\trangchucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\xoanhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\xoanhanviencontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\xoaphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\xoaphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\quanlyphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\quanlyphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\quanlyphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\quanlyphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\capnhatphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\capnhatphim\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\quanlynhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\quanlynhanvien.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\nguoidung.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\capnhatphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\capnhatphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\capnhatphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\capnhatphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\views\\themphimmoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\views\\themphimmoi\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\themphimmoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\themphimmoicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\dangnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\dangnhapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\wwwroot\\css\\themphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\wwwroot\\css\\themphim.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\controllers\\dangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|d:\\n\u0103m 4 hki\\ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\project r\u1EA1p phim\\project_rapphim\\project_rapphim\\models\\quanlyrapchieuphimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E85233F1-BF3C-4E4F-A38F-EA454E6C0064}|Project_RapPhim\\Project_RapPhim.csproj|solutionrelative:project_rapphim\\models\\quanlyrapchieuphimcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Capnhatnhanvien\\Index.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwCsAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T06:36:06.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CapnhatnhanvienController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\CapnhatnhanvienController.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwD4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:35:19.144Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ThemnhanvienController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\ThemnhanvienController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAYAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-24T06:25:59.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Phim.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\Phim.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\Phim.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\Phim.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\Phim.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwwBwAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:48:55.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlynhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Quanlynhanvien\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlynhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Quanlynhanvien\\Index.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAADEAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T16:13:18.396Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "QuanlynhanvienController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\QuanlynhanvienController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:12:24.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Themnhanvien\\Index.cshtml",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-24T06:27:03.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "themnhanvien.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\themnhanvien.css",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAuwEQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-24T06:27:56.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "NhanVien.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\NhanVien.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\NhanVien.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\NhanVien.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\NhanVien.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAuwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T09:39:23.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Xoanhanvien\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T17:47:52.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "xoanhanvien.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\xoanhanvien.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T18:00:53.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "XoanhanvienController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\XoanhanvienController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwBAAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T17:07:25.644Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Quanlyphim\\Index.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAFAAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T16:33:42.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "TrangchuController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\TrangchuController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T14:58:45.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "XoaphimController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\XoaphimController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAYwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:55:41.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "quanlyphim.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\quanlyphim.css",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAAwBQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T16:36:07.416Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "QuanlyphimController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\QuanlyphimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:30:22.724Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "quanlynhanvien.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\quanlynhanvien.css",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAAwIkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T16:14:49.426Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Capnhatphim\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-22T02:56:03.922Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NguoiDung.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\NguoiDung.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\NguoiDung.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\NguoiDung.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\NguoiDung.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T16:01:56.395Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-18T08:23:07.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "capnhatphim.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\capnhatphim.css",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAAAGkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-22T03:02:31.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "Project_RapPhim\\appsettings.Development.json",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\appsettings.Development.json",
+              "RelativeToolTip": "Project_RapPhim\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-22T02:48:05.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CapnhatphimController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\CapnhatphimController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-22T02:44:14.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Program.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Program.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Program.cs",
+              "RelativeToolTip": "Project_RapPhim\\Program.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:36:58.485Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "RelativeToolTip": "Project_RapPhim\\Views\\Themphimmoi\\Index.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEMAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-21T16:53:19.446Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "ThemphimmoiController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\ThemphimmoiController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T16:52:11.174Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T17:28:04.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "DangnhapController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\DangnhapController.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAgwCoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:20:55.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "themphim.css",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "RelativeDocumentMoniker": "Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "RelativeToolTip": "Project_RapPhim\\wwwroot\\css\\themphim.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-21T16:55:04.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DangkyController.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangkyController.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Controllers\\DangkyController.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Controllers\\DangkyController.cs",
+              "RelativeToolTip": "Project_RapPhim\\Controllers\\DangkyController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:21:00.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "QuanLyRapChieuPhimContext.cs",
+              "DocumentMoniker": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "RelativeDocumentMoniker": "Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "ToolTip": "D:\\N\u0103m 4 HKI\\Ph\u00E1t tri\u1EC3n ph\u1EA7n m\u1EC1m chuy\u00EAn nghi\u1EC7p\\Project R\u1EA1p Phim\\Project_RapPhim\\Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "RelativeToolTip": "Project_RapPhim\\Models\\QuanLyRapChieuPhimContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAA6wAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T08:20:39.007Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

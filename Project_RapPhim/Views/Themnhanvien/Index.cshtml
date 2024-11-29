@@ -1,0 +1,71 @@
+@model Project_RapPhim.Models.NhanVien
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thêm Nhân Viên</title>
+	<link rel="stylesheet" href="~/css/themnhanvien.css">
+</head>
+<body>
+	<div class="form-container">
+		<h1>Thêm Nhân Viên</h1>
+		<form asp-controller="Themnhanvien" asp-action="Index" method="post" class="form">
+			@if (ViewBag.Message != null)
+			{
+				<p>@ViewBag.Message</p>
+			}
+			@section Scripts {
+				@{
+					await Html.RenderPartialAsync("_ValidationScriptsPartial");
+				}
+			}
+			<div class="form-group">
+				<label for="MaNhanVien">Mã Nhân Viên</label>
+				<input type="number" id="MaNhanVien" name="MaNhanVien" value="@Model.MaNhanVien" />
+				<span asp-validation-for="MaNhanVien" class="text-danger"></span> <!-- Hiển thị lỗi nếu có -->
+			</div>
+			<div class="form-group">
+				<label for="HoTen">Họ Tên</label>
+				<input type="text" id="HoTen" name="HoTen" value="@Model.HoTen">
+				<span asp-validation-for="HoTen" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label for="Email">Email</label>
+				<input type="email" id="Email" name="Email" value="@Model.Email" >
+				<span asp-validation-for="Email" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label for="SoDienThoai">Số Điện Thoại</label>
+				<input type="text" id="SoDienThoai" name="SoDienThoai" value="@Model.SoDienThoai" >
+				<span asp-validation-for="SoDienThoai" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label for="VaiTro">Vai Trò</label>
+				<input type="text" id="VaiTro" name="VaiTro" value="@Model.VaiTro" >
+				<span asp-validation-for="VaiTro" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label for="TrangThai">Trạng Thái</label>
+				<input type="text" id="TrangThai" name="TrangThai" value="@Model.TrangThai" >
+				<span asp-validation-for="TrangThai" class="text-danger"></span>
+			</div>
+			<div class="form-group">
+				<label for="MaNguoiDung">Mã Người Dùng</label>
+				<input type="number" id="MaNguoiDung" name="MaNguoiDung" value="@Model.MaNguoiDung">
+				<span asp-validation-for="MaNguoiDung" class="text-danger"></span>
+			</div>
+			<div class="form-actions">
+				<button type="submit" class="btn-submit">Thêm Nhân Viên</button>
+				<a href="@Url.Action("Index", "Quanlynhanvien")" class="btn-cancel">Hủy</a>
+			</div>
+		</form>
+	</div>
+	
+	<!-- Thêm jQuery và script kiểm tra lỗi -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.3/jquery.validate.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validation-unobtrusive/3.2.11/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+@model Project_RapPhim.Models.NhanVien
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Xác nhận xóa nhân viên</title>
+	<link rel="stylesheet" href="~/css/xoanhanvien.css">
+</head>
+<body>
+	<div class="confirm-container">
+		<h2>Xóa nhân viên</h2>
+		<p>Bạn chắc chắn muốn xóa nhân viên <strong>@Model.HoTen</strong> không?</p>
+		<p>ID: @Model.NhanVienId</p>
+
+		<div class="confirm-actions">
+			<form asp-controller="Xoanhanvien" asp-action="XoaNhanVien" method="post">
+				<input type="hidden" name="id" value="@Model.NhanVienId" />
+				<button type="submit" class="btn-confirm">Xác nhận</button>
+			</form>
+			<a href="@Url.Action("Index", "Quanlynhanvien")" class="btn-cancel">Hủy</a>
+		</div>
+	</div>
+</body>
+</html>

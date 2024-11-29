@@ -1,0 +1,59 @@
+@model Project_RapPhim.Models.NguoiDung
+
+@{
+	ViewData["Title"] = "Đăng ký";
+}
+
+<head>
+	<link rel="stylesheet" href="~/css/dangky.css" />
+</head>
+
+<form asp-action="Index" method="post">
+	<h2 class="form-title">Đăng Ký Tài Khoản</h2>
+	<div>
+		<label>Họ Tên:</label>
+		<input asp-for="HoTen" />
+		<span asp-validation-for="HoTen" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label>Email:</label>
+		<input asp-for="Email" type="email" />
+		<span asp-validation-for="Email" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label>Số Điện Thoại:</label>
+		<input asp-for="SoDienThoai" />
+		<span asp-validation-for="SoDienThoai" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label>Mật Khẩu:</label>
+		<input asp-for="MatKhau" type="password" />
+		<span asp-validation-for="MatKhau" class="text-danger"></span>
+	</div>
+
+	<div>
+		<label>Vai Trò:</label>
+		<input asp-for="VaiTro" />
+		<span asp-validation-for="VaiTro" class="text-danger"></span>
+	</div>
+
+	<div class="button-row">
+		<button type="submit" class="btn">Đăng Ký</button>
+		
+	</div>
+</form>
+
+@if (ViewBag.Message != null)
+{
+	<p>@ViewBag.Message</p>
+}
+
+@section Scripts {
+	@{
+		await Html.RenderPartialAsync("_ValidationScriptsPartial");
+	}
+}
+

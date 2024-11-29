@@ -1,0 +1,122 @@
+@{
+	ViewData["Title"] = "Trang chủ";
+	var phimDangChieu = ViewBag.PhimDangChieu as List<Phim>;
+	var phimSapChieu = ViewBag.PhimSapChieu as List<Phim>;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/css/site.css">
+	<link rel="stylesheet" href="~/css/footer.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div >
+				<img src="~/HinhAnh/logo.jpg" alt="Logo" style="width: 126px; margin: -44px 5px;">
+			</div>
+			<a href="/Trangchu/Index">TRANG CHỦ</a>
+			<a href="#">LỊCH CHIẾU</a>
+			<a href="#">PHIM</a>
+			<a href="#">KHUYẾN MÃI</a>
+			<a href="#">LIÊN HỆ</a>
+			<a asp-controller="Quanlynhanvien" asp-action="Index">QUẢN LÝ NHÂN VIÊN</a>
+			<a asp-controller="Quanlyphim" asp-action="Index">QUẢN LÝ PHIM</a>
+
+		</nav>
+		<div >
+			<img src="~/HinhAnh/matmado22.jpg" style="height: 451px; width: 1247px;">
+		</div>
+	</header>
+
+	
+	<div class="container">
+		<div>
+			<h2>Phim: Đang Chiếu</h2>
+			<div class="movie-list">
+				@foreach (var phim in phimDangChieu)
+				{
+					<div class="movie-item">
+						@if (!string.IsNullOrEmpty(phim.HinhAnh))
+						{
+							<img src="~/HinhAnh/@phim.HinhAnh" alt="Poster của @phim.TenPhim" />
+						}
+						else
+						{
+							<img src="~/HinhAnh/default.jpg" alt="Poster mặc định" />
+						}
+						<p>@phim.TenPhim</p>
+					</div>
+				}
+			</div>
+		</div>
+
+		<div>
+			<h2>Phim: Sắp Chiếu</h2>
+			<div class="movie-list">
+				@foreach (var phim in phimSapChieu)
+				{
+					<div class="movie-item">
+						@if (!string.IsNullOrEmpty(phim.HinhAnh))
+						{
+							<img src="~/HinhAnh/@phim.HinhAnh" alt="Poster của @phim.TenPhim" />
+						}
+						else
+						{
+							<img src="~/HinhAnh/default.jpg" alt="Poster mặc định" />
+						}
+						<p>@phim.TenPhim</p>
+					</div>
+				}
+			</div>
+		</div>
+	</div>
+
+	<div class="footer">
+		<div class="footer-container">
+			<div class="footer-left">
+				<div class="download-icons">
+					<img src="~/HinhAnh/logo.jpg" alt="Logo">
+				</div>
+				<p>Support: <a href="#">RapPhim@gmail.com</a></p>
+				<p>Hotline: 0395089035</p>
+				<div class="social-icons">
+					<a href="#"><i class="fab fa-facebook"></i></a>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="#"><i class="fab fa-linkedin"></i></a>
+					<a href="#"><i class="fab fa-google-plus"></i></a>
+					<a href="#"><i class="fab fa-instagram"></i></a>
+				</div>
+			</div>
+			<div class="footer-center">
+				<h4>CHÍNH SÁCH</h4>
+				<ul>
+					<li><a href="#">>>Điều Khoản Chung</a></li>
+					<li><a href="#">>>Chính Sách Thanh Toán</a></li>
+					<li><a href="#">>>Chính Sách Giao Nhận</a></li>
+					<li><a href="#">>>Bảo Mật Thông Tin</a></li>
+					<li><a href="#">>>Kiểm Hàng, Đổi Trả/Hoàn Tiền</a></li>
+				</ul>
+			</div>
+			<div class="footer-right">
+				<h4>DOWNLOAD APP</h4>
+				<p>Tải Ngay Ứng Dụng Đặt Vé Online Cho Dễ Yêu Của Bạn !</p>
+				<div class="download-icons">
+					<img src="~/HinhAnh/gg.jpg" alt="Google Play">
+					<img src="~/HinhAnh/store.jpg" alt="App Store">
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom">
+			<p>CÔNG TY CỔ PHẦN ENTERTAINMENT 2020</p>
+			<p>Giấy chứng nhận đăng kí doanh nghiệp công ty cổ phần: 0402021264 đăng ký lần đầu ngày 03/01/2020</p>
+			<p>Cơ quan cấp : Phòng Đăng ký kinh doanh - Sở kế hoạch và đầu tư Thành phố Đà Nẵng</p>
+			<p>Địa chỉ: Tầng 4, Tòa nhà Nguyễn Kim, 46 Điện Biên Phủ, TP. Đà Nẵng, Việt Nam</p>
+			<p>Hotline (Đường dây nóng) : 19001722</p>
+		</div>
+	</div>
+</body>
+</html>

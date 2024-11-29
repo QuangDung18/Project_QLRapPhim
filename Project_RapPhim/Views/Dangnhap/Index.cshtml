@@ -1,0 +1,32 @@
+@{
+	ViewBag.Title = "Đăng Nhập";
+}
+<head>
+	<link rel="stylesheet" href="~/css/dangky.css" />
+</head>
+
+<form method="post" asp-controller="Dangnhap" asp-action="Index">
+	<h2 class="form-title">Đăng Nhập Tài Khoản</h2>
+	<div>
+		<label for="email">Email:</label>
+		<input type="email" name="email" required />
+	</div>
+	<div>
+		<label for="matKhau">Mật Khẩu:</label>
+		<input type="password" name="matKhau" required />
+	</div>
+	@if (!ViewData.ModelState.IsValid)
+	{
+		<div class="error-message text-danger">
+			@foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+			{
+				<p>@error.ErrorMessage</p>
+			}
+		</div>
+	}
+
+	<div class="button-row">
+		<button type="submit" class="btn">Đăng Nhập</button>
+		<a asp-controller="Quenmatkhau" asp-action="Index" class="btn-link btn">Quên Mật Khẩu</a>
+	</div>
+</form>

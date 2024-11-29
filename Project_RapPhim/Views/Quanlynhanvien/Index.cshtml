@@ -1,0 +1,54 @@
+@model IEnumerable<Project_RapPhim.Models.NhanVien>
+
+@{
+	ViewData["Title"] = "Quản lý nhân viên";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>@ViewData["Title"]</title>
+	<link rel="stylesheet" href="~/css/quanlynhanvien.css">
+</head>
+<body>
+	<div class="container">
+		<h1>Quản lý nhân viên</h1>
+		<a href="/Themnhanvien/Index" class="add-button">Thêm nhân viên</a>
+		<table class="employee-table">
+			<thead>
+				<tr>
+					<th>Mã Nhân Viên</th>
+					<th>Họ Tên</th>
+					<th>Email</th>
+					<th>Số Điện Thoại</th>
+					<th>Vai Trò</th>
+					<th>Trạng Thái</th>
+					<th>Thao Tác</th>
+				</tr>
+			</thead>
+			<tbody>
+				@foreach (var nv in Model)
+				{
+					<tr>
+						<td>@nv.MaNhanVien</td>
+						<td>@nv.HoTen</td>
+						<td>@nv.Email</td>
+						<td>@nv.SoDienThoai</td>
+						<td>@nv.VaiTro</td>
+						<td>@nv.TrangThai</td>
+						<td>
+							<a asp-controller="Capnhatnhanvien" asp-action="Index" asp-route-id="@nv.NhanVienId" class="edit-button">Cập Nhật</a>
+							<a asp-controller="Xoanhanvien" asp-action="Index" asp-route-id="@nv.NhanVienId"
+							   class="delete-button"
+							   onclick="return confirmDelete(event, '@nv.HoTen');">Xóa</a>
+						</td>
+					</tr>
+				}
+			</tbody>
+		</table>
+	</div>
+	
+</body>
+</html>
