@@ -1,0 +1,80 @@
+@model Project_RapPhim.Models.Phim
+
+@{
+	ViewData["Title"] = "Thêm phim mới";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="~/css/themphim.css">
+	<title>@ViewData["Title"]</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Thêm Phim Mới</h1>
+
+		<form asp-action="Index" asp-controller="Themphimmoi" method="post" enctype="multipart/form-data">
+			@Html.ValidationSummary(true, "", new { @class = "text-danger" }) 
+
+			<div class="form-group">
+				<label for="TenPhim">Tên phim</label>
+				<input type="text" id="TenPhim" name="TenPhim" class="form-control" required />
+				@Html.ValidationMessageFor(model => model.TenPhim, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="TheLoai">Thể loại</label>
+				<input type="text" id="TheLoai" name="TheLoai" class="form-control" required />
+				@Html.ValidationMessageFor(model => model.TheLoai, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="DaoDien">Đạo diễn</label>
+				<input type="text" id="DaoDien" name="DaoDien" class="form-control" required />
+				@Html.ValidationMessageFor(model => model.DaoDien, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="DienVien">Diễn viên</label>
+				<input type="text" id="DienVien" name="DienVien" class="form-control" required />
+				@Html.ValidationMessageFor(model => model.DienVien, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="MoTa">Mô tả</label>
+				<textarea id="MoTa" name="MoTa" class="form-control" rows="4" required></textarea>
+				@Html.ValidationMessageFor(model => model.MoTa, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="ThoiLuong">Thời lượng (phút)</label>
+				<input type="number" id="ThoiLuong" name="ThoiLuong" class="form-control" min="0" />
+				@Html.ValidationMessageFor(model => model.ThoiLuong, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="DanhGia">Đánh giá (1-5)</label>
+				<input type="number" id="DanhGia" name="DanhGia" class="form-control" min="1" max="5" step="0.1" />
+				@Html.ValidationMessageFor(model => model.DanhGia, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="NgayKhoiChieu">Ngày khởi chiếu</label>
+				<input type="date" id="NgayKhoiChieu" name="NgayKhoiChieu" class="form-control" />
+				@Html.ValidationMessageFor(model => model.NgayKhoiChieu, "", new { @class = "text-danger" })
+			</div>
+
+			<div class="form-group">
+				<label for="HinhAnh">Hình ảnh</label>
+				<input type="text" id="HinhAnh" name="HinhAnh" class="form-control" />
+				
+			</div>
+
+			<button type="submit" class="btn-submit">Thêm phim</button>
+		</form>
+	</div>
+</body>
+</html>
