@@ -1,0 +1,41 @@
+﻿@model IEnumerable<dynamic>
+@{
+    Layout = "_Layout";
+}
+
+<h2>Thống Kê Doanh Thu</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Tên Phim</th>
+            <th>Ngày Chiếu</th>
+            <th>Tổng Doanh Thu (VNĐ)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Any())
+        {
+            decimal totalRevenue = 0;
+            foreach (var item in Model)
+            {
+                totalRevenue += item.TongDoanhThu;
+                <tr>
+                    <td>@item.Phim</td>
+                    <td>@item.NgayChieu?.ToString("dd/MM/yyyy")</td>
+                    <td>@item.TongDoanhThu.ToString("N0")</td>
+                </tr>
+            }
+            <tr>
+                <td colspan="2"><strong>Tổng Doanh Thu</strong></td>
+                <td><strong>@totalRevenue.ToString("N0") VNĐ</strong></td>
+            </tr>
+        }
+        else
+        {
+            <tr>
+                <td colspan="3" class="text-center">Không có dữ liệu doanh thu.</td>
+            </tr>
+        }
+    </tbody>
+</table>
