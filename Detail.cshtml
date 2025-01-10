@@ -1,0 +1,207 @@
+﻿@model Project_RapPhim.Models.Phim
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Nội dung phim - @Model.TenPhim</title>
+    <link rel="stylesheet" href="~/css/site.css">
+    <link rel="stylesheet" href="~/css/chitietphim.css">
+    <style>
+        /* General container for the movie details */
+        .container2 {
+            width: 80%;
+            margin: 0 auto;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Styling for the movie poster */
+        .movie-details {
+            display: flex;
+            margin-bottom: 30px;
+        }
+
+        /* Poster image styles */
+        .movie-poster {
+            flex: 1;
+            max-width: 300px;
+            margin-right: 20px;
+        }
+
+            .movie-poster img {
+                width: 100%;
+                border-radius: 8px;
+            }
+
+        /* Movie info styling */
+        .movie-info {
+            flex: 2;
+            padding: 20px;
+            background-color: #f8f8f8;
+            border-radius: 8px;
+        }
+
+            .movie-info h2 {
+                font-size: 24px;
+                color: #333;
+            }
+
+            .movie-info p {
+                font-size: 16px;
+                line-height: 1.6;
+                color: #555;
+            }
+
+            .movie-info a {
+                display: inline-block;
+                padding: 10px 20px;
+                background-color: #007bff;
+                color: white;
+                text-decoration: none;
+                border-radius: 5px;
+                margin-top: 20px;
+            }
+
+                .movie-info a:hover {
+                    background-color: #0056b3;
+                }
+
+            .movie-info .back-button {
+                background-color: #28a745;
+            }
+
+                .movie-info .back-button:hover {
+                    background-color: #218838;
+                }
+
+        /* Section for reviews */
+        .movie-reviews {
+            margin-top: 40px;
+        }
+
+            .movie-reviews h3 {
+                font-size: 20px;
+                color: #333;
+                margin-bottom: 10px;
+            }
+
+            .movie-reviews div {
+                margin-bottom: 15px;
+                padding: 10px;
+                background-color: #f1f1f1;
+                border-left: 5px solid #007bff;
+                border-radius: 5px;
+            }
+
+                .movie-reviews div strong {
+                    font-size: 18px;
+                    color: #007bff;
+                }
+
+                .movie-reviews div p {
+                    font-size: 16px;
+                    color: #555;
+                }
+
+            .movie-reviews form {
+                margin-top: 20px;
+                padding: 15px;
+                background-color: #f8f8f8;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            }
+
+                .movie-reviews form textarea {
+                    width: 100%;
+                    padding: 10px;
+                    font-size: 16px;
+                    border-radius: 5px;
+                    border: 1px solid #ccc;
+                    margin-bottom: 15px;
+                    resize: vertical;
+                    height: 120px;
+                }
+
+                .movie-reviews form button {
+                    background-color: #007bff;
+                    color: white;
+                    padding: 10px 20px;
+                    border: none;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                    .movie-reviews form button:hover {
+                        background-color: #0056b3;
+                    }
+
+            .movie-reviews p {
+                font-size: 16px;
+                color: #555;
+            }
+
+            .movie-reviews .login-link {
+                color: #007bff;
+                text-decoration: underline;
+            }
+
+    </style>
+</head>
+<body>
+    <div class="container2">
+        <h1>Nội dung phim</h1>
+        <div class="movie-details">
+            <div class="movie-poster">
+                @if (!string.IsNullOrEmpty(Model.HinhAnh))
+                {
+                    <img src="~/HinhAnh/@Model.HinhAnh" alt="Poster của @Model.TenPhim" />
+                }
+                else
+                {
+                    <img src="~/HinhAnh/default.jpg" alt="Poster mặc định" />
+                }
+            </div>
+
+            <div class="movie-info">
+                <h2>@Model.TenPhim</h2>
+                <p><strong>Thể loại:</strong> @Model.TheLoai</p>
+                <p><strong>Đạo diễn:</strong> @Model.DaoDien</p>
+                <p><strong>Diễn viên:</strong> @Model.DienVien</p>
+                <p><strong>Thời lượng:</strong> @Model.ThoiLuong phút</p>
+                <p><strong>Ngày khởi chiếu:</strong> @Model.NgayKhoiChieu?.ToString("dd/MM/yyyy")</p>
+                <p><strong>Mô tả:</strong></p>
+                <p>@Model.MoTa</p>
+
+                <a class="booking-button" href="/Datve/Index?maPhim=@Model.PhimId">Đặt vé ngay</a>
+                <a class="back-button" href="/Trangchu/Index">Quay lại trang chủ</a>
+            </div>
+        </div>
+
+        <div class="movie-reviews">
+            <h3>Đánh giá phim</h3>
+
+            @foreach (var danhGia in ViewBag.DanhGias)
+            {
+                <div>
+                    <strong>@danhGia.NguoiDung</strong>
+                    <p>@danhGia.NoiDung</p>
+                </div>
+            }
+
+            @if (ViewBag.NguoiDungId != null)
+            {
+                <h3>Gửi đánh giá</h3>
+                <form method="post" asp-action="SubmitReview">
+                    <input type="hidden" name="phimId" value="@Model.PhimId" />
+                    <textarea name="noiDung" placeholder="Nhập đánh giá của bạn" required></textarea><br />
+                    <button type="submit">Gửi đánh giá</button>
+                </form>
+            }
+            else
+            {
+                <p>Vui lòng <a href="/Dangnhap/Index">đăng nhập</a> để gửi đánh giá.</p>
+            }
+        </div>
+    </div>
+</body>
+</html>

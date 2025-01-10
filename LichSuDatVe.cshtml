@@ -1,0 +1,217 @@
+﻿@model List<Project_RapPhim.ViewModels.LichSuDatVeViewModel>
+
+@{
+    ViewData["Title"] = "Lịch Sử Đặt Vé";
+    Layout = "_Layout";
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f8f9fa;
+    }
+
+    h2 {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 28px;
+        color: #343a40;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* Bảng lịch sử đặt vé */
+    .table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fff;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+        .table th, .table td {
+            padding: 12px 15px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .table th {
+            background-color: #007bff;
+            color: white;
+            font-weight: bold;
+        }
+
+        .table td {
+            background-color: #f9f9f9;
+        }
+
+        .table tr:hover {
+            background-color: #f1f1f1;
+        }
+
+    /* Thông báo không có vé */
+    .no-booking-message {
+        text-align: center;
+        font-size: 18px;
+        color: #dc3545;
+        padding: 20px;
+        background-color: #f8d7da;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
+
+    /* Nút quay lại */
+    .btn-back {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #28a745;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        text-decoration: none;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+        .btn-back:hover {
+            background-color: #218838;
+        }
+
+</style>
+<div class="container">
+    <h2>@ViewData["Title"]</h2>
+
+    @if (Model != null && Model.Any())
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Mã Vé</th>
+                    <th>Phim</th>
+                    <th>Ghế</th>
+                    <th>Ngày Mua</th>
+                    <th>Ngày Chiếu</th>
+                    <th>Giờ Chiếu</th>
+                    <th>Trạng Thái</th>
+                    <th>Tổng Tiền</th>
+                    <th>Hành Động</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.MaVe</td>
+                        <td>@item.TenPhim</td>
+                        <td>@item.Ghe</td>
+                        <td>@item.NgayMua.ToString("dd/MM/yyyy")</td>
+                        <td>@item.NgayChieu.ToString("dd/MM/yyyy")</td>
+                        <td>@item.GioChieu.ToString(@"hh\:mm")</td>
+                        <td>@item.TongTien.ToString("C")</td>
+                        <td>@item.TrangThai</td>
+                        <td>
+                            @if (item.TrangThai == "Đã mua")
+                            {
+                                <!-- Modal for thanh toán -->
+                                <button type="button" class="btn btn-info" data-bs-toggle="modal" data-bs-target="#paymentModal@item.MaVe">
+                                    Thanh Toán
+                                </button>
+
+                                <!-- Modal for thanh toán -->
+                                <div class="modal fade" id="paymentModal@item.MaVe" tabindex="-1" aria-labelledby="paymentModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="paymentModalLabel">Xác Nhận Thanh Toán</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bạn có chắc chắn muốn thanh toán vé này không?
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>Tổng tiền : @item.TongTien.ToString("C")</p>
+                                           </div>
+                                            <div class="modal-footer">
+                                                <form method="post" action="@Url.Action("ConfirmPayment", "Trangchu")">
+                                                    <input type="hidden" name="maVe" value="@item.MaVe" />
+                                                    <button type="submit" class="btn btn-success">Xác Nhận Thanh Toán</button>
+                                                </form>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#cancelModal@item.MaVe">
+                                    Hủy Vé
+                                </button>
+
+                                <!-- Modal for cancel confirmation -->
+                                <div class="modal fade" id="cancelModal@item.MaVe" tabindex="-1" aria-labelledby="cancelModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title" id="cancelModalLabel">Xác Nhận Hủy Vé</h5>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Bạn có chắc chắn muốn hủy vé này không?
+                                            </div>
+                                            <div class="modal-footer">
+                                                <!-- Form for hủy vé -->
+                                                <form method="post" action="@Url.Action("HuyVe", "Trangchu")">
+                                                    <input type="hidden" name="maVe" value="@item.MaVe" />
+                                                    <button type="submit" class="btn btn-danger">Xác Nhận Hủy</button>
+                                                </form>
+                                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Đóng</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p>@ViewBag.Message</p>
+    }
+
+    <a href="@Url.Action("Index", "Trangchu")" class="btn-back">Quay lại Trang Chủ</a>
+</div>
+<script>
+    // Ensure that when the modal is triggered, it's targeting the correct ticket
+    document.addEventListener('DOMContentLoaded', function () {
+        // Attach click events to the "Thanh Toán" and "Hủy Vé" buttons
+        const paymentButtons = document.querySelectorAll('.btn-info');
+        const cancelButtons = document.querySelectorAll('.btn-danger');
+
+        paymentButtons.forEach(button => {
+            button.addEventListener('click', function (e) {
+                const maVe = this.getAttribute('data-bs-target').replace('#paymentModal', '');
+                // Dynamically show the correct modal
+                const modal = document.getElementById('paymentModal' + maVe);
+                const modalInstance = new bootstrap.Modal(modal);
+                modalInstance.show();
+            });
+        });
+
+        cancelButtons.forEach(button => {
+            button.addEventListener('click', function (e) {
+                const maVe = this.getAttribute('data-bs-target').replace('#cancelModal', '');
+                // Dynamically show the correct modal
+                const modal = document.getElementById('cancelModal' + maVe);
+                const modalInstance = new bootstrap.Modal(modal);
+                modalInstance.show();
+            });
+        });
+    });
+</script>
