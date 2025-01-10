@@ -1,0 +1,65 @@
+﻿@model Project_RapPhim.ViewModels.SuatChieuGheViewModel
+
+<h2>Quản Lý Ghế: @Model.Phim.TenPhim</h2>
+<p>Suất Chiếu: @Model.SuatChieu.NgayChieu?.ToString("dd/MM/yyyy") - @Model.SuatChieu.GioChieu?.ToString(@"hh\:mm")</p>
+
+<div class="seat-layout">
+    @foreach (var ghe in Model.GheNgois)
+    {
+        <div class="seat @(ghe.TrangThai ? "seat-taken" : "seat-available")" title="Ghế: @($"{ghe.HangGhe}{ghe.SoGhe}")">
+            @($"{ghe.HangGhe}{ghe.SoGhe}")
+        </div>
+    }
+</div>
+
+<p>
+    <span class="seat-legend seat-available"></span> Ghế Trống
+    <span class="seat-legend seat-taken"></span> Ghế Đã Đặt
+</p>
+
+<style>
+    .seat-layout {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(50px, 1fr));
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .seat {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 14px;
+        cursor: pointer;
+    }
+
+    .seat-available {
+        background-color: #28a745;
+        color: white;
+    }
+
+    .seat-taken {
+        background-color: #dc3545;
+        color: white;
+    }
+
+    .seat-legend {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        margin-right: 5px;
+        border-radius: 3px;
+    }
+
+        .seat-legend.seat-available {
+            background-color: #28a745;
+        }
+
+        .seat-legend.seat-taken {
+            background-color: #dc3545;
+        }
+</style>
