@@ -1,0 +1,109 @@
+﻿@model Project_RapPhim.ViewModels.SuatChieuGheViewModel
+
+@{
+    ViewData["Title"] = "Chọn Ghế";
+}
+
+<h2>Chọn Ghế cho Suất Chiếu: @Model.SuatChieu.SuatChieuId</h2>
+
+<form method="post" action="@Url.Action("DatGhe", "Datve")" id="seatForm">
+    <input type="hidden" name="maSuat" value="@Model.SuatChieu.SuatChieuId" />
+
+    <div class="seat-layout" id="seatLayout">
+        @foreach (var ghe in Model.GheNgois)
+        {
+            <label class="seat @((ghe.TrangThai ? "seat-taken" : "seat-available"))" data-seat-id="@ghe.GheNgoiId">
+                <input type="checkbox" name="maGhe" value="@ghe.GheNgoiId"
+                @((ghe.TrangThai) ? "disabled" : "") />
+                @($"Ghế {ghe.HangGhe}{ghe.SoGhe}") 
+                @($"GheID{ghe.GheNgoiId}")
+            </label>
+        }
+    </div>
+
+    <div id="errorMessage" style="color: red; display: none;">Vui lòng chọn chỗ ngồi trước khi đặt!</div>
+
+    <button type="submit" class="btn btn-primary">Đặt Ghế</button>
+</form>
+
+<div>
+    <a href="@Url.Action("Index", "Datve", new { maPhim = Model.SuatChieu.MaPhim })">Quay lại</a>
+</div>
+
+<style>
+    .seat-layout {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 600px;
+        margin: 20px 0;
+    }
+
+    .seat {
+        display: inline-block;
+        margin: 5px;
+        padding: 10px;
+        border: 1px solid #ddd;
+        text-align: center;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .seat-taken {
+        background-color: #dc3545; /* Màu đỏ */
+        color: white;
+        cursor: not-allowed;
+    }
+
+    .seat-available {
+        background-color: #28a745; /* Màu xanh */
+        color: white;
+    }
+
+    .seat-selected {
+        background-color: #ffc107; /* Màu vàng */
+        color: black;
+    }
+
+    .seat input {
+        display: none;
+    }
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function () {
+        const seatLayout = document.getElementById("seatLayout");
+        const seatForm = document.getElementById("seatForm");
+        const errorMessage = document.getElementById("errorMessage");
+
+        // Lắng nghe sự kiện click trên các ghế
+        seatLayout.addEventListener("change", function (e) {
+            if (e.target.tagName === "INPUT" && e.target.type === "checkbox") {
+                const seat = e.target.closest(".seat");
+
+                // Kiểm tra trạng thái của checkbox
+                if (e.target.checked) {
+                    seat.classList.add("seat-selected");
+                    seat.classList.remove("seat-available");
+                } else {
+                    seat.classList.remove("seat-selected");
+                    seat.classList.add("seat-available");
+                }
+            }
+        });
+
+        // Kiểm tra khi submit form
+        seatForm.addEventListener("submit", function (e) {
+            const selectedSeats = document.querySelectorAll(".seat input:checked");
+
+            // Nếu không có ghế nào được chọn
+            if (selectedSeats.length === 0) {
+                e.preventDefault(); // Ngăn form gửi đi
+                errorMessage.style.display = "block"; // Hiển thị thông báo lỗi
+            } else {
+                errorMessage.style.display = "none"; // Ẩn thông báo lỗi
+            }
+        });
+    });
+</script>

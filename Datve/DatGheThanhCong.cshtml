@@ -1,0 +1,70 @@
+﻿@model List<Project_RapPhim.Models.Ve>
+
+@{
+    ViewData["Title"] = "Đặt Vé Thành Công";
+}
+
+<h2>Đặt Vé Thành Công!</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="ticket-list">
+        @foreach (var ve in Model)
+        {
+            <div class="ticket-item">
+                <h4>Vé số: @ve.VeId</h4>
+                <p>Suất chiếu: @ve.MaSuat</p>
+                <p>Ghế: @ve.MaGhe</p>
+                <p>Ngày mua: @ve.NgayMua.ToString("dd/MM/yyyy HH:mm")</p>
+                <p>Trạng thái: @ve.TrangThai</p>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Không tìm thấy vé.</p>
+}
+
+<div>
+    <a href="@Url.Action("Index", "Trangchu")" class="btn btn-primary">Quay lại trang chủ</a>
+</div>
+
+<style>
+    .ticket-list {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .ticket-item {
+        border: 1px solid #ddd;
+        padding: 15px;
+        border-radius: 5px;
+        width: 300px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+        .ticket-item h4 {
+            margin-bottom: 10px;
+            color: #007bff;
+        }
+
+        .ticket-item p {
+            margin: 5px 0;
+        }
+
+    .btn {
+        display: inline-block;
+        margin-top: 20px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+    }
+
+        .btn:hover {
+            background-color: #0056b3;
+        }
+</style>
